@@ -10,17 +10,21 @@ public class Cell {
         this.y=y;
 
         if (x%2!=0 && y%2!=0) {
-            value = ' ';
+            value = '0';
         } else {
             value = '#';
         }
     }
 
     public void clear() {
-        this.value = ' ';
+        this.value = '0';
     }
 
+    public String getStr() {
+        if (this.value=='#') return "\\#";
+        else return ""+this.value;
+    }
     public String toString() {
-        return "("+this.x+","+this.y+")";
+        return ""+this.x+" "+this.y+"";
     }
 }

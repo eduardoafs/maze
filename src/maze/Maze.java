@@ -45,7 +45,6 @@ public class Maze {
         generate(position);
         maze[x-1][y-2].clear();
         parent.put(maze[x-1][y-2], maze[x-2][y-2]);
-        printMaze();
     }
 
     private void generate(Cell start) {
@@ -116,9 +115,19 @@ public class Maze {
     }
 
     public static void main(String[] args) {
-        Maze m = new Maze(11, 11);
-        System.out.println("Solution:");
-        m.solution();
+        Scanner scan = new Scanner(System.in);
+        int x;
+        int y;
+        while (true) {
+
+            x = scan.nextInt();
+            y = scan.nextInt();
+            Maze m = new Maze(x, y);
+            System.out.println("Maze:");
+            m.printMaze();
+            System.out.println("Solution:");
+            m.solution();
+        }
     }
 
 }
