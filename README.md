@@ -8,4 +8,4 @@
 - 0 indica posição vazia, caminho que pode-se percorrer
 - \# indica parede, por onde não se pode passar
 - A posição inicial sempre será (0,1)
-- A posição final sempre será (x-2, y-1), sendo x e y as dimensões do labirinto
+- A posição final sempre será (x-1, y-2), sendo x e y as dimensões do labirinto
