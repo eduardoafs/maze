@@ -10,3 +10,5 @@
 - A posição inicial sempre será (0,1)
 - A posição final sempre será (x-1, y-2), sendo x e y as dimensões do labirinto
 - x é a quantidade de linhas, y é a quantidade de colunas, como um array maze[x][y]
+
+Atenção: esse programa não trata entradas inválidas
