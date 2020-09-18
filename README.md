@@ -12,6 +12,6 @@
 - x é a quantidade de linhas, y é a quantidade de colunas, como um array maze[x][y]
 1. Após o labirinto, será impresso a sequência de movimentos para encontrar a saída
 - Cada linha possui um par de inteiros a b
-- Esse par representa a posição para qual deve ser realizado o movimento
+- Esse par representa a próxima posição para qual deve ser realizado o movimento
 
 Atenção: esse programa não trata entradas inválidas
